@@ -46,10 +46,19 @@ class Home extends React.Component {
     return (
       <div className="home-page">
         <Banner />
-
         <div className="container page">
           <Tags tags={this.props.tags} onClickTag={this.props.onClickTag} />
-          <MainView />
+          <MainView
+          // token={mapStateToProps.token}
+          // tab={this.tab}
+          // tabClick={this.props.onClickTag}
+          // tag={this.props.tags}
+          // pager={""}
+          // items={" "}
+          // loading={""}
+          // itemsCount={" "}
+          // currentPage={" "}
+          />
         </div>
       </div>
     );
